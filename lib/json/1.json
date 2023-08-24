@@ -1,0 +1,51 @@
+{
+    "topic": "PHP Tech",
+    "author_name": "suraj jaiswal",
+    "date": "2023-08-22",
+    "blog_data": {
+        "main_heading": "HOW TO USE HTTP GET AND POST METHODS IN PHP",
+        "1_img": "https://suraj99900.github.io/myprotfolio.github.io/img/php_blog.jpg",
+        "sub_data": [
+            {
+                "img": "",
+                "sub_heading": "",
+                "container": "Php stands for Hypertext preprocessor. Php is a powerful and widely-used open source server -side programming language to write dynamically generated web-page. php is executed on the server and the result is sent to the client browser as a plain html.php is helpful for the Beginners web-Developer purpose . It helps to easily understand the mechanism of server side scripting language working. Php is an “HTML -embedded scripting language primarily used for dynamic web application”.Most of the php syntax is similar to the c, java, perl programming language . It is an open source language and runs most of the operating system and most web-servers.php perform system function i.e from file on system it can create ,open, read,write and close them all function used in php.The two get and post methods are used to send the data from html control to a php script on the server. Url is used to specify the location ,which helps the browser to send the data mention action attribute of a form. Php script handles both displaying html tag and reading data from html control when the submit button is click by the user ."
+            },
+            {
+                "img": "https://suraj99900.github.io/myprotfolio.github.io/img/php_img_1.png",
+                "sub_heading": "Browser Role - Get And Post Methods",
+                "container": "Browsers use one of the two http (Hypertext transfer protocol) methods - Get and Post to communicate with the server . Both methods used to pass the information differently to the server."
+            },
+            {
+                "img": "",
+                "sub_heading": "(A) GET Methods",
+                "container": "The data in the Get method is sent as an url parameter in the pair of names and the value is separated by ampersand (&).Example:- Url of Get data look like this:http: //www.localhost/suraj/index.php?name=suraj&password=joker123.The name and age is the parameter of the Get url ; suraj and joker123 is a value of the parameter which is sent through the url. More than one parameter=value can be embedded in the url and separated through the ampersands (&). Only simple text values can be sent through the Get method.Super global variable $_GET is used to access all the information sent through an html form using get method.Syntax:$_GET['variable_name'];Where we can say that “$_GET[...]” is the php array and “variable_name” is the URL variable name."
+            },
+            {
+                "img": "https://suraj99900.github.io/myprotfolio.github.io/img/php_img_4.png",
+                "sub_heading": "",
+                "container": ""
+            },
+            {
+                "img": "https://suraj99900.github.io/myprotfolio.github.io/img/php_img_3.png",
+                "sub_heading": "",
+                "container": ""
+            },
+            {
+                "img": "",
+                "sub_heading": "(B) POST Methods",
+                "container": "The data in the post method is sent through the server in the form of package In separated communication with the processing script. The data which is sent through the server is not visible to the user in the URL query string as it is visible in the GET method . The post method can be used to send the much larger data, information and file to the server ,because it is secure.Super global variable $_POST is used to access all the information sent through an html form using the post method. Syntax: $_POST['variable_name']; Where we can say that “$_POST[...]” is the php array and “variable_name” is the URL variable name."
+            },
+            {
+                "img": "https://suraj99900.github.io/myprotfolio.github.io/img/php_img_5.png",
+                "sub_heading": "Example :-Student.php",
+                "container": ""
+            },
+            {
+                "img": "https://suraj99900.github.io/myprotfolio.github.io/img/php_img_6.png",
+                "sub_heading": "Output:",
+                "container": ""
+            }
+        ]
+    }
+}

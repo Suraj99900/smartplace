@@ -1,0 +1,61 @@
+{
+    "topic": "PHP Tech",
+    "author_name": "akash jaiswal",
+    "date": "2023-08-24",
+    "blog_data": {
+        "main_heading": "HOW TO FETCH DATA FROM DATABASE USING AJAX IN PHP PAGE",
+        "1_img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692880215912_HOW-TO-FETCH-DATA-FROM-DATABASE-USING-AJAX-IN-PHP-PAGE-Google-Docs.png.jpg?alt=media&token=db9313df-b9b3-4bcd-81f0-0c69da137a3e",
+        "sub_data": [
+            {
+                "img": "",
+                "sub_heading": "",
+                "container": "Today we perform and try to make a registration form in php and insert the data in the database using ajax with javascript technic and display all data in table format  using ajax technic , without reloading the page .The operations we perform are CRUD (create , read , update, delete ) in our PHP page ."
+            },
+            {
+                "img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692880220569_HOW-TO-FETCH-DATA-FROM-DATABASE-USING-AJAX-IN-PHP-PAGE-Google-Docs%20(1).png.jpg?alt=media&token=fa896de2-63f1-4e12-af8a-38dfd733e2ff",
+                "sub_heading": "1)Create Connection API to Database",
+                "container": "First of all, you need to connect PHP to the MYSQL database.                      File Name –Config.php"
+            },
+            {
+                "img": "",
+                "sub_heading": "2)Request page to Fetch/Retrieve from the database and send response in json format.",
+                "container": "File name :- Request.php"
+            },
+            {
+                "img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692880222876_HOW-TO-FETCH-DATA-FROM-DATABASE-USING-AJAX-IN-PHP-PAGE-Google-Docs%20(2).png.jpg?alt=media&token=96d8ba07-dd2b-42c8-9080-54de2609fe66",
+                "sub_heading": "",
+                "container": ""
+            },
+            {
+                "img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692880224425_HOW-TO-FETCH-DATA-FROM-DATABASE-USING-AJAX-IN-PHP-PAGE-Google-Docs%20(3).png.jpg?alt=media&token=3d7702e1-4361-485a-9960-2ea2b02ba33f",
+                "sub_heading": "",
+                "container": ""
+            },
+            {
+                "img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692880226003_HOW-TO-FETCH-DATA-FROM-DATABASE-USING-AJAX-IN-PHP-PAGE-Google-Docs%20(4).png.jpg?alt=media&token=54314db1-04a6-4dc3-9d70-cd7b5bd24225",
+                "sub_heading": "",
+                "container": ""
+            },
+            {
+                "img": "",
+                "sub_heading": "3)Create Registration.php /Index.php for user interaction.",
+                "container": "File name :-Registration.php                              In this file we include the form for registration to include user data in the database using ajax techniques and make a few more things, such as table structure to display all data and buttons to update the row and delete the row from the table using ajax techniques ."
+            },
+            {
+                "img": "",
+                "sub_heading": "4)Using Ajax to insert the data in the database.",
+                "container": "Code to insert data in the database using ajax."
+            },
+            {
+                "img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692880219043_HOW-TO-FETCH-DATA-FROM-DATABASE-USING-AJAX-IN-PHP-PAGE-Google-Docs%20(5).png.jpg?alt=media&token=1ab4b699-cf59-4f46-99f4-8c84cc56a425",
+                "sub_heading": "Note :- The Request.php already contains a query for performing database operation.",
+                "container": "Similarly we perform the same technique to display , update and delete operations using ajax in our php page . In this technique we use ajax to request to perform some specified operation after getting appropriate response from the server .We provide that response to the client browser using javascript and php. "
+            },
+            {
+                "img": "",
+                "sub_heading": "Source Code Link :-",
+                "container": " https://github.com/Suraj99900/db_insert_using_ajax.git"
+            }
+        ]
+    }
+}

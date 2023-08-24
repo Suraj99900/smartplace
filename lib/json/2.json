@@ -1,0 +1,56 @@
+{
+    "topic": "PHP Tech",
+    "author_name": "akash jaiswal",
+    "date": "2023-08-24",
+    "blog_data": {
+        "main_heading": "FUNCTION OVERLOADING AND FUNCTION OVERRIDING IN PHP",
+        "1_img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692865852720_overloading_overriding_php_1.jpg.jpg?alt=media&token=4efd631b-7024-40bc-9d53-452e1b279d96",
+        "sub_data": [
+            {
+                "img": "",
+                "sub_heading": "",
+                "container": "Php is a powerful and server-side programming language, which helps in building dynamic websites. If we are talking about the PHP language, then it is also considered as an Oops concept. And in oops concept we have function overloading and function overriding. Function overloading and overriding is a feature of object oriented programming that allows to create more than one method/function with same name but different number of parameters/arguments that is function overloading but in case of function overriding, both parent and child The class must have the same function name and number of arguments/parameters that the function is overriding."
+            },
+            {
+                "img": "",
+                "sub_heading": "Function Overloading In PHP",
+                "container": "In the function overloading the same function name but it contains the different numbers of parameters/arguments and it performs different tasks. For example :-find the area of certain shapes where radius is given then it should return area of circle if height and width are given then it should give area of rectangle and others.But in the php function overloading is done with the help of magic function __call(). This Function takes function name and arguments.If we perform function overloading without a magic function then error is generated ."
+            },
+            {
+                "img": "",
+                "sub_heading": "(A) GET Methods",
+                "container": "The data in the Get method is sent as an url parameter in the pair of names and the value is separated by ampersand (&).Example:- Url of Get data look like this:http: //www.localhost/suraj/index.php?name=suraj&password=joker123.The name and age is the parameter of the Get url ; suraj and joker123 is a value of the parameter which is sent through the url. More than one parameter=value can be embedded in the url and separated through the ampersands (&). Only simple text values can be sent through the Get method.Super global variable $_GET is used to access all the information sent through an html form using get method.Syntax:$_GET['variable_name'];Where we can say that “$_GET[...]” is the php array and “variable_name” is the URL variable name."
+            },
+            {
+                "img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692865850457_overloading_overriding_php_2.png.jpg?alt=media&token=b9bd776e-0795-41eb-b51e-2393dcd987a9",
+                "sub_heading": "Example:-",
+                "container": ""
+            },
+            {
+                "img": "",
+                "sub_heading": "OutPut:-",
+                "container": "Fatal error:Cannot redeclare text::display() in C:\\xampp\\htdocs\\PHPT\\php class and object\\index.php on line 32 Note :- From the above example we can say that function overloading is not possible in php but with the help of magic function (__call()) we can perform function overloading in php.There is one example of function overloading with the help of magic function /method."
+            },
+            {
+                "img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692865856523_overloading_overriding_php_3.png.jpg?alt=media&token=c8c2668f-c9e6-4615-8d6b-cc7778291da7",
+                "sub_heading": "Output",
+                "container": "Area of circle:-12.56 Area of Rectangle:-10"
+            },
+            {
+                "img": "",
+                "sub_heading": "Function Overriding In Php",
+                "container": "In function overriding, both parent and child class should have the same function name and number of arguments. Mostly it is used to replace the parent methods in child class. The main reason for overriding is to change the behavior of the parent class."
+            },
+            {
+                "img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692865854384_overloading_overriding_php_4.png.jpg?alt=media&token=40156ac9-56f1-45a6-bd14-72467c50b85c",
+                "sub_heading": "Example of overriding :-",
+                "container": ""
+            },
+            {
+                "img": "https://firebasestorage.googleapis.com/v0/b/auth-ec7ad.appspot.com/o/blog_images%2F1692865857864_overloading_overriding_php_5.png.jpg?alt=media&token=2d018bbf-dd11-491f-a884-e8134cb80a07",
+                "sub_heading": "Output:-",
+                "container": ""
+            }
+        ]
+    }
+}
